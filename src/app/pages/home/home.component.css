@@ -1,0 +1,48 @@
+h1{
+    color: aliceblue;
+    font-size: 80px;
+}
+h2{
+    color: aliceblue;
+}
+h3{
+    color: aliceblue;
+}
+.banner{
+    width: 100%;
+    height:auto;
+    min-height: 90%;
+    min-width: 10vh;
+    background: linear-gradient(-45deg,#303030, black, #303030);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.wrapper{
+    position: absolute;
+    width: 100%;
+    left: 15%;
+}
+span{
+    color: aqua;
+    letter-spacing: 1px;
+}
+.multiText{
+    color: blueviolet;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+a{
+    margin : 10px;
+}
